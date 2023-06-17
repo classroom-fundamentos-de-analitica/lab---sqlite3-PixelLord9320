@@ -41,11 +41,11 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 SELECT
-    DATE_PART('year',
-    C23)     AS YEAR,
-    AVG(C21) AS AVG_C21
+    STRFTIME('%Y',
+    C23),
+    AVG(C21)
 FROM
     TBL2
 GROUP BY
-    DATE_PART('year',
-    C23)
+    STRFTIME('%Y',
+    C23);
