@@ -41,9 +41,11 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 SELECT
-    YEAR(C23) AS YEAR,
-    AVG(C21)  AS AVG_C21
+    DATE_PART('year',
+    C23)     AS YEAR,
+    AVG(C21) AS AVG_C21
 FROM
     TBL2
 GROUP BY
-    YEAR(C23)
+    DATE_PART('year',
+    C23)
