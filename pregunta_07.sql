@@ -42,4 +42,14 @@
 --  12  C  24  482.32  300  2019-05-03  0.11  CCCE
 -- 
 --  >>> Escriba su codigo a partir de este punto <<<
---
+SELECT
+    *
+FROM
+    TBL1
+WHERE
+    K0 <> 'A'
+    AND K0 <> 'B'
+    AND C13 <> 200
+    AND C13 <> 900
+ORDER BY
+    C14;

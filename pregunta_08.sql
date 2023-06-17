@@ -40,4 +40,12 @@
 --  3  2019  550.998571
 --
 --  >>> Escriba su codigo a partir de este punto <<<
---
+SELECT
+    STRFTIME('%Y',
+    C23),
+    AVG(C21)
+FROM
+    TBL2
+GROUP BY
+    STRFTIME('%Y',
+    C23);

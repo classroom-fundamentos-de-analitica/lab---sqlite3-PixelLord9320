@@ -39,4 +39,12 @@
 --  2  C  CCCE
 --
 --  >>> Escriba su codigo a partir de este punto <<<
--- 
+SELECT
+    K0,
+    C16
+FROM
+    TBL1
+WHERE
+    SUBSTR(C16,
+    1,
+    1) = K0;
