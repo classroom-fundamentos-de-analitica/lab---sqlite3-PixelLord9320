@@ -41,4 +41,9 @@
 --  4   I  3000  300  PPPPL  0.3
 --
 --  >>> Escriba su codigo a partir de este punto <<<
---
+SELECT
+    *
+FROM
+    TBL0
+WHERE
+    C02 >= 300;
