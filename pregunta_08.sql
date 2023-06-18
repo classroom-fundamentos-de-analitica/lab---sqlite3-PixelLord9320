@@ -43,7 +43,7 @@
 SELECT
     STRFTIME('%Y',
     C23),
-    AVG(C21) 
+    AVG(C21)
 FROM
     TBL2
 GROUP BY
