@@ -45,7 +45,7 @@ SELECT
     C23)     AS YEAR,
     AVG(C21) AS AVG_C21
 FROM
-    TBL2
+    tbl12
 GROUP BY
     STRFTIME('%Y',
     C23);
