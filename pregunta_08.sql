@@ -48,4 +48,4 @@ FROM
     TBL2
 GROUP BY
     STRFTIME('%Y',
-    C23)
+    C23);
